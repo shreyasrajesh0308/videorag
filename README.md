@@ -56,9 +56,9 @@ ctx = rag.retrieve("robot arm", top_k=5, max_mentions=6)
 # Improvements
 
 - [ ] Temporal reasoning currentlly not supported. I think this should be easy enough to achieve with a simple routing mechanism, since if we know it is a temporal call, approach could follow a very simple termporal routing mechanism. (Based on timestamps of the evidence)
-- [] The evidence creation step is super slow, imo we should be able to use something like CLIP to pick only the most relevant frames for the evidence creation step.
-- [] The entity graph is also super simple, we should be able to handle more complex QA with a slightly more involved graph structure. 
-- [] Hybrid retreval with a sparse retriever (BM25 like) is super easy to implement and is guaranteed to improve performance. 
+- [ ] The evidence creation step is super slow, imo we should be able to use something like CLIP to pick only the most relevant frames for the evidence creation step.
+- [ ] The entity graph is also super simple, we should be able to handle more complex QA with a slightly more involved graph structure. 
+- [ ] Hybrid retreval with a sparse retriever (BM25 like) is super easy to implement and is guaranteed to improve performance. 
 
 ## Notes
 
