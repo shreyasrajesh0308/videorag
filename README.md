@@ -1,6 +1,6 @@
 # A simple Video RAG 
 
-A very simple Entity based Video Framework for Questions Answering over videos.
+A very simple Entity based Framework for Questions Answering over videos.
 
 # Methodology
 
