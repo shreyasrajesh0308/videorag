@@ -1,0 +1,8 @@
+.uv-cache/
+.venv/
+artifacts/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+*.mov
